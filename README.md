@@ -7,7 +7,7 @@
 ## ✨ Key Features
 
 - ✅ **ASP.NET Core MVC & Razor Pages** with **N-Tier Architecture** for clean, scalable codebase  
-- 🗂 **Repository & Unit of Work** patterns to promote separation of concerns  
+- 🗂 **Repository** pattern to promote separation of concerns  
 - 🔐 **Role-Based Authentication & Authorization** using **ASP.NET Core Identity**  
 - 👥 Role management for **Admin**, **Customer** accounts  
 - 💳 **Stripe Payment Gateway** integration for secure transactions  
