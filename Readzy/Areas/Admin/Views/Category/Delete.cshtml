@@ -1,0 +1,52 @@
+﻿@model Category
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<div class="row pb-3 mt-2 shadow-sm rounded-1">
+
+    <div class="row text-light text-center bg-danger rounded-1 pb-3 pt-3 ms-0">
+            <h2> Delete Category </h2>
+        </div>
+
+        <form asp-controller="Category" asp-action="SaveDelete" method="post">
+            <div asp-validation-summary="All" class="text-danger"></div>
+
+            <input asp-for="Id" hidden />
+
+            <div class="form-group mb-3">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" disabled class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="DisplayOrder" class="control-label"></label>
+                <input asp-for="DisplayOrder" disabled class="form-control" />
+                <span asp-validation-for="DisplayOrder" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3 text-danger" >
+                Are You Sure?
+            </div>
+
+            <div class="row">
+                <div class="form-group col-6 ">
+                    <input type="submit" value="Yes Sure, Delete" class="btn btn-danger form-control rounded-1" />
+                </div>
+
+                <div class="form-group col-6 ">
+                    <a asp-controller="Category" asp-action="Index" class="btn btn-secondry border form-control border-secondary rounded-1">Back to List</a>
+                </div>
+            </div>
+        </form>
+
+    </div>
+
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

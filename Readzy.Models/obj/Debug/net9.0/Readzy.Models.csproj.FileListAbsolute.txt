@@ -1,0 +1,12 @@
+G:\Projects\Readzy\Readzy.Models\bin\Debug\net9.0\Readzy.Models.deps.json
+G:\Projects\Readzy\Readzy.Models\bin\Debug\net9.0\Readzy.Models.dll
+G:\Projects\Readzy\Readzy.Models\bin\Debug\net9.0\Readzy.Models.pdb
+G:\Projects\Readzy\Readzy.Models\obj\Debug\net9.0\Readzy.Models.csproj.AssemblyReference.cache
+G:\Projects\Readzy\Readzy.Models\obj\Debug\net9.0\Readzy.Models.GeneratedMSBuildEditorConfig.editorconfig
+G:\Projects\Readzy\Readzy.Models\obj\Debug\net9.0\Readzy.Models.AssemblyInfoInputs.cache
+G:\Projects\Readzy\Readzy.Models\obj\Debug\net9.0\Readzy.Models.AssemblyInfo.cs
+G:\Projects\Readzy\Readzy.Models\obj\Debug\net9.0\Readzy.Models.csproj.CoreCompileInputs.cache
+G:\Projects\Readzy\Readzy.Models\obj\Debug\net9.0\Readzy.Models.dll
+G:\Projects\Readzy\Readzy.Models\obj\Debug\net9.0\refint\Readzy.Models.dll
+G:\Projects\Readzy\Readzy.Models\obj\Debug\net9.0\Readzy.Models.pdb
+G:\Projects\Readzy\Readzy.Models\obj\Debug\net9.0\ref\Readzy.Models.dll

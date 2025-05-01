@@ -1,0 +1,69 @@
+﻿@model ProductViewModel
+
+@{
+    ViewData["Title"] = "Books List";
+}
+
+
+<div class="container shadow-sm rounded-1 pb-1">
+
+    <div class="row mt-2">
+        <div class="row text-light text-center bg-primary rounded-1 pb-2 pt-2 ms-0">
+            <h2 class="text-light">Books List</h2>
+        </div>
+    </div>
+
+    <div class="row pt-2 pb-2">
+        <!--12 Row Grid-->
+        <div class="col-12 text-end">
+            <a asp-controller="Product" asp-action="UpSert" class="btn btn-primary rounded-1">
+                <i class="bi bi-plus-circle me-1 "></i>
+                Create New Book
+            </a>
+        </div>
+    </div>
+
+
+    <table id="tblData" class="table table-bordered table-striped ">
+
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Price</th>
+                <th>Category</th>
+            </tr>
+        </thead>
+
+
+     @*    <tbody>
+            @foreach (var item in Model.products)
+            {
+                <tr style="height:35px">
+                    <td>@item.Title</td>
+                    <td>@item.Author</td>
+                    <td>@item.Price</td>
+                    <td>
+                        @Model.categories.FirstOrDefault(cat => cat.Id == item.CategoryId)?.Name
+                    </td>
+                    <td>
+                        <div class="w-75 btn-group" role="group">
+                            <a asp-controller="Product" asp-action="UpSert" asp-route-id="@item.Id" class="btn btn-primary mx-1 rounded-1">
+                                <i class="bi bi-pencil-square"></i> Edit
+                            </a>
+                            <a asp-controller="Product" asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger mx-1 rounded-1">
+                                <i class="bi bi-trash"></i> Delete
+                            </a>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody> *@
+
+    </table>
+</div>
+
+
+@section Scripts {
+    <script src="~/js/Product.js"></script>
+    }

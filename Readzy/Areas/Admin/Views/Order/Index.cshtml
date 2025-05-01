@@ -1,0 +1,38 @@
+﻿@model OrderViewModel
+
+@{
+    ViewData["Title"] = "Books List";
+}
+
+
+<div class="container shadow-sm rounded-1 pb-1">
+
+    <div class="row mt-2">
+        <div class="row text-light text-center bg-primary rounded-1 pb-2 pt-2 ms-0">
+            <h2 class="text-light">Order List</h2>
+        </div>
+    </div>
+
+
+
+    <table id="tblData" class="table table-bordered table-striped ">
+
+        <thead>
+            <tr>
+                
+                <th>id</th>
+                <th>Name</th>
+                <th>User Email</th>
+                <th>Order Status</th>
+                <th>Order Total</th>
+            </tr>
+        </thead>
+
+
+    </table>
+</div>
+
+
+@section Scripts {
+    <script src="~/js/Order.js"></script>
+    }

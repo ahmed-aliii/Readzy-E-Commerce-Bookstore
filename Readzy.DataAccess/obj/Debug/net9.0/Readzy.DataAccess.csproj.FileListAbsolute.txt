@@ -1,0 +1,17 @@
+G:\Projects\Readzy\Readzy.DataAccess\bin\Debug\net9.0\Readzy.DataAccess.deps.json
+G:\Projects\Readzy\Readzy.DataAccess\bin\Debug\net9.0\Readzy.DataAccess.runtimeconfig.json
+G:\Projects\Readzy\Readzy.DataAccess\bin\Debug\net9.0\Readzy.DataAccess.dll
+G:\Projects\Readzy\Readzy.DataAccess\bin\Debug\net9.0\Readzy.DataAccess.pdb
+G:\Projects\Readzy\Readzy.DataAccess\bin\Debug\net9.0\Readzy.Models.dll
+G:\Projects\Readzy\Readzy.DataAccess\bin\Debug\net9.0\Readzy.Models.pdb
+G:\Projects\Readzy\Readzy.DataAccess\obj\Debug\net9.0\Readzy.DataAccess.csproj.AssemblyReference.cache
+G:\Projects\Readzy\Readzy.DataAccess\obj\Debug\net9.0\Readzy.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+G:\Projects\Readzy\Readzy.DataAccess\obj\Debug\net9.0\Readzy.DataAccess.AssemblyInfoInputs.cache
+G:\Projects\Readzy\Readzy.DataAccess\obj\Debug\net9.0\Readzy.DataAccess.AssemblyInfo.cs
+G:\Projects\Readzy\Readzy.DataAccess\obj\Debug\net9.0\Readzy.DataAccess.csproj.CoreCompileInputs.cache
+G:\Projects\Readzy\Readzy.DataAccess\obj\Debug\net9.0\Readzy.D.659BFCBF.Up2Date
+G:\Projects\Readzy\Readzy.DataAccess\obj\Debug\net9.0\Readzy.DataAccess.dll
+G:\Projects\Readzy\Readzy.DataAccess\obj\Debug\net9.0\refint\Readzy.DataAccess.dll
+G:\Projects\Readzy\Readzy.DataAccess\obj\Debug\net9.0\Readzy.DataAccess.pdb
+G:\Projects\Readzy\Readzy.DataAccess\obj\Debug\net9.0\Readzy.DataAccess.genruntimeconfig.cache
+G:\Projects\Readzy\Readzy.DataAccess\obj\Debug\net9.0\ref\Readzy.DataAccess.dll

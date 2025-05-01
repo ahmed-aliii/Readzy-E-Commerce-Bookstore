@@ -1,0 +1,100 @@
+﻿@model RegisterViewModel
+@{
+    ViewData["Title"] = "Register";
+    SelectList RolesSelectLists = new SelectList(new List<SelectListItem>
+    {
+        new SelectListItem { Text = "Customer", Value = "Customer" },
+        new SelectListItem { Text = "Admin", Value = "Admin" }
+    }, "Value", "Text");
+}
+
+
+<div class="container mt-1">
+    <div class="row justify-content-center">
+        <div class="col-md-6 col-lg-8">
+            <div class="card shadow">
+                <div class="card-header bg-primary text-white text-center">
+                    <h4 class="mb-0">Register</h4>
+                </div>
+                <div class=" text-Primary text-center m-2 mt-3">
+                        <h3 class="mb-0 ">Create New Account</h3>
+                </div>
+                <div class="card-body">
+                    <form asp-action="Register" method="post">
+                        <div class="row mb-3">
+                            <div class="col-md-12">
+                                <input asp-for="Email" class="form-control" placeholder="Email" />
+                                <span asp-validation-for="Email" class="text-danger small"></span>
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <input asp-for="Password" type="password" class="form-control" placeholder="Password" />
+                                <span asp-validation-for="Password" class="text-danger small"></span>
+                            </div>
+                            <div class="col-md-6">
+                                <input asp-for="ConfirmPassword" type="password" class="form-control" placeholder="Confirm Password" />
+                                <span asp-validation-for="ConfirmPassword" class="text-danger small"></span>
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <input asp-for="StreetAddress" class="form-control" placeholder="Street Address" />
+                                <span asp-validation-for="StreetAddress" class="text-danger small"></span>
+                            </div>
+                            <div class="col-md-6">
+                                <input asp-for="City" class="form-control" placeholder="City" />
+                                <span asp-validation-for="City" class="text-danger small"></span>
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <input asp-for="State" class="form-control" placeholder="State" />
+                                <span asp-validation-for="State" class="text-danger small"></span>
+                            </div>
+                            <div class="col-md-6">
+                                <input asp-for="PostalCode" class="form-control" placeholder="Postal Code" />
+                                <span asp-validation-for="PostalCode" class="text-danger small"></span>
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <input asp-for="PhoneNumber" class="form-control" placeholder="Phone Number" />
+                                <span asp-validation-for="PhoneNumber" class="text-danger small"></span>
+                            </div>
+                            <div class="col-md-6">
+                                <select asp-for="Role" class="form-select" asp-items="@RolesSelectLists">
+                                    <option selected disabled>--Select Role--</option>
+                                </select>
+                                <span asp-validation-for="Role" class="text-danger small"></span>
+                            </div>
+                        </div>
+
+
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-primary">Register</button>
+                        </div>
+                    </form>
+
+                    <div class="text-center mt-3">
+                        <p>Already have an account? <a asp-area="User" asp-controller="Account" asp-action="Login">Login</a></p>
+                     </div>
+
+
+                  
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
