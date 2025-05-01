@@ -24,7 +24,6 @@
 - **Database:** SQL Server, Entity Framework Core 9  
 - **Authentication:** ASP.NET Core Identity, OAuth (Google & Facebook)  
 - **Payments:** Stripe  
-- **Deployment:** Microsoft Azure, IIS  
 - **Development Tools:** Visual Studio 2022, SQL Server Management Studio (SSMS)  
 
 ## 📸 Screenshots
